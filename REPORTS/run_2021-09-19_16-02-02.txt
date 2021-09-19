@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: F:\GitRepos\IdaiKuri
+plugins: reporter-0.5.2, reporter-html1-0.8.2
+collected 12 items
+
+Test_Filler.py ......                                                    [ 50%]
+Test_Parser.py ......                                                    [100%]
+
+----- generated report: F:\GitRepos\IdaiKuri\REPORTS\TestCaseResults.html -----
+============================= 12 passed in 0.89s ==============================

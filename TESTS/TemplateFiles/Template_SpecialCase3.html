@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="avatar-flip">
+        <img src="[[self.get_portrait( FullName)]]" height="150" width="150">
+        <img src="[[self.get_logo( Contribution)]]" height="150" width="150">
+      </div>
+    <h2>[[   self.VAR( FullName)  ]]</h2>
+    <h4>[[  self.VAR( Position)]]</h4>
+    <p>[[self.VAR( Quote)  ]]</p>
+    <p>&mdash;[[  #  self.VAR( FullName)]]</p>
+    </div>
+  </body>
+</html>
