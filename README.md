@@ -27,7 +27,7 @@ result_dict = TE.OutFile(temp_vars, "GeneratedFiles/GuidoVanRossum_DefaultCase1.
 ```
 ### CodeFlow
 
-![](FillerCodeflow.PNG)
+![](https://github.com/Palani-SN/IdaiKuri/blob/master/FillerCodeflow.PNG?raw=true)
 
 ### Interface (Decorator)
 
@@ -125,7 +125,7 @@ for key in diffdict.keys():
 ```
 ### CodeFlow
 
-![](ParserCodeflow.PNG)
+![](https://github.com/Palani-SN/IdaiKuri/blob/master/ParserCodeflow.PNG?raw=true)
 
 ### TemplateEngine (class from Parser.py)
 
