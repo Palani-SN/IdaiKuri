@@ -1,8 +1,6 @@
 # IdaiKuri (Generic Simple Template Engine)
 
-[TOCM]
-
-[TOC]
+- A Generic Simple Template Engine which maps Function Calls and Variables in templates(based on regex pattern) with code to create Files as variants of the Template Choosen.
 
 ## Filler
 
@@ -29,7 +27,7 @@ result_dict = TE.OutFile(temp_vars, "GeneratedFiles/GuidoVanRossum_DefaultCase1.
 ```
 ### CodeFlow
 
-![](FillerCodeflow.png)
+![](FillerCodeflow.PNG)
 
 ### Interface (Decorator)
 
@@ -127,7 +125,7 @@ for key in diffdict.keys():
 ```
 ### CodeFlow
 
-![](ParserCodeflow.png)
+![](ParserCodeflow.PNG)
 
 ### TemplateEngine (class from Parser.py)
 
