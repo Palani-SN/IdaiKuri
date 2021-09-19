@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="IdaiKuri",
-    version="0.0.2",
+    version="0.0.3",
     description="Generic Simple Template Engine for Filling and Parsing",
     py_modules=["IdaiKuri/Filler", "IdaiKuri/Parser"],
     package_dir={"": "SRCS"},

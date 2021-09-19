@@ -1,6 +1,7 @@
 # IdaiKuri (Generic Simple Template Engine)
 
 - A Generic Simple Template Engine which maps Function Calls and Variables in templates(based on regex pattern) with code to create Files as variants of the Template Choosen.
+- Check out the example code in repo ( https://github.com/Palani-SN/IdaiKuri ) for reference
 
 ## Filler
 
@@ -39,12 +40,12 @@ from IdaiKuri.Filler import FillerTemplateEngine as TemplateEngine
 from IdaiKuri.Filler import Interface
 
 class AdvancedTemplate(TemplateEngine):
-	@Interface
-	def get_portrait(self, name):
-		return "images/"+name.replace(" ","")+".png";
-	@Interface
-	def get_logo(self, contrib):
-		return "images/"+contrib+"Logo.png"
+    @Interface
+    def get_portrait(self, name):
+        return "images/"+name.replace(" ","")+".png";
+    @Interface
+    def get_logo(self, contrib):
+        return "images/"+contrib+"Logo.png"
 ```
 ### TemplateEngine (class from Filler.py)
 
